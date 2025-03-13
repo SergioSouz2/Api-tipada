@@ -1,0 +1,29 @@
+# Ignorar node_modules (dependências)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar arquivos de build do TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Ignorar variáveis de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar logs e cache
+logs/
+*.log
+yarn.lock
+package-lock.json
+
+# Ignorar arquivos do editor
+.vscode/
+.idea/
+.DS_Store
+
+# Ignorar arquivos do sistema operacional
+Thumbs.db
